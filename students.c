@@ -1,3 +1,4 @@
+// Student Management System by Aryan Dua
 #include <stdio.h>
 
 struct Student {

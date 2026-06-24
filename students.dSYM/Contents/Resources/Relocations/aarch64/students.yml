@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aryandua/Documents/C_Projects/students'
+relocations:     []
+...
