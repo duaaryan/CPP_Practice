@@ -40,6 +40,7 @@ int main() {
         printf("1. Add Student\n");
         printf("2. View All Students\n");
         printf("3. Save & Exit\n");
+        printf("4. Clear All Records\n");
         printf("\nEnter your choice: ");
         scanf("%d", &choice);
 
@@ -72,14 +73,18 @@ int main() {
                 }
             }
 
-        } else if (choice == 3) {
+       } else if (choice == 3) {
             saveToFile(s, count);
             printf("Goodbye!\n");
             break;
+        } else if (choice == 4) {
+            count = 0;
+            FILE *f = fopen("/Users/aryandua/Documents/C_Projects/students.txt", "w");
+            fclose(f);
+            printf("All records cleared!\n");
         } else {
             printf("Invalid choice!\n");
         }
     }
-
     return 0;
 }
