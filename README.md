@@ -1,21 +1,17 @@
-# Student Management System
+# Coding Practice
 
-A console-based application built in C language.
+Practice programs written in C and C++ covering fundamental programming concepts.
 
-## Features
-- Add student records (name, roll number, marks)
-- Auto calculates grade based on marks
-- View all students in a table
-- Saves data to file so records persist after closing
+## Topics Covered
+- Arrays
+- Functions
+- Pointers
+- Strings
+- OOP (Classes, Objects, Inheritance)
+- Vectors
+- STL
+- Patterns
 
-## How to Run
-gcc students.c -o students
-
-./students
-## Built With
-- C Language
-- File Handling
-- Structs and Arrays
-
-## Author
-Aryan Dua — B.Tech ECE, MSIT Delhi
+## Tech Stack
+- Language: C, C++
+- Compiler: GCC
