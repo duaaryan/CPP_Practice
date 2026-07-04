@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+     int evensum=0;
+     int n=5;
+for (int i=1 ; i<=n;i++ ){
+    if (i%2 ==0){
+       evensum += i;
+
+    }
+}
+cout << "evensum = " << evensum << endl;
+return 0;
+}
