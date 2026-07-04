@@ -14,4 +14,4 @@ Practice programs written in C and C++ covering fundamental programming concepts
 
 ## Tech Stack
 - Language: C, C++
-- Compiler: GCC
+- Compiler: Clang (macOS)
